@@ -1,0 +1,7 @@
+{
+  "name": "my-photography",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
