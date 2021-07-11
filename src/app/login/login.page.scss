@@ -11,7 +11,7 @@
 
 .app-title-description
 {
-  font-weight: bold;
+  font-weight: normal;
   color: #ffffff;
   padding-top: 5px;
   font-size: 12px;
@@ -42,8 +42,8 @@
 
 .app-header {
   background-image: linear-gradient(
-      124deg
-    , #085377fc, #0046e28c);
+    124deg
+  , #085377fc, #0046e28c);
 }
 
 .app-logo-center {
@@ -52,13 +52,32 @@
   width: 50%;
 }
 
-.blue-gradient
+
+.login-form
 {
-  background-image: linear-gradient(124deg, #085377fc, #0046e28c);
+  padding: 10px;
 }
 
-.border-radius-50
+.login-form-card
 {
-  border-radius: 50px;
+  margin: 25px;
+  font-size: 12px;
+}
+
+.button-width-100
+{
+  width: 152px;
+  margin: auto;
+}
+
+.remember-password
+{
+  font-size: 12px;
+  margin: 10px
+}
+
+.login-form-header
+{
+  font-size: 25px;
 }
 

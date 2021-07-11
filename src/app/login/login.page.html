@@ -1,0 +1,87 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-grid class="app-header">
+      <ion-row>
+        <ion-col size="2" class="app-logo-center">
+          <img class="app-logo" alt="Wankhade Art" height="40" src="../../assets/icon/logo.png"></ion-col>
+        <ion-col size="8">
+          <ion-title class="app-title">WANKHADE ART</ion-title>
+          <ion-title class="app-title-description">Online Booking</ion-title>
+
+        </ion-col>
+        <ion-col size="2">
+          <div class="header-notification-icon">
+            <ion-icon name="notifications-outline"></ion-icon>
+          </div>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card class="login-form-card">
+    <div class="login-form text-center">
+      <ion-label class="login-form-header">Login</ion-label>
+
+
+      <form>
+        <ion-card-content>
+
+          <ion-item lines="full">
+            <ion-label position="floating">Username</ion-label>
+            <ion-input type="text" required></ion-input>
+          </ion-item>
+
+          <ion-item lines="full">
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password" required></ion-input>
+          </ion-item>
+        </ion-card-content>
+
+        <ion-row>
+          <ion-col class="ion-margin-top">
+            <ion-grid class="p0">
+              <ion-row>
+                <ion-col size="8">
+                  <ion-grid class="p0">
+                    <ion-row>
+                      <ion-col size="1">
+                        <ion-checkbox checked="true"></ion-checkbox>
+                      </ion-col>
+                      <ion-col size="11">
+                        <ion-label class="remember-password">Remember Password</ion-label>
+                      </ion-col>
+                    </ion-row>
+                  </ion-grid>
+                </ion-col>
+                <ion-col size="4" class="text-align-right">
+                  <a [routerLink]="['/forgot-password']" class="small-text text-color-grey">Forgot Password?</a>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+            <ion-button type="submit" class="blue-gradient border-radius-50 button-width-100" expand="block">Login</ion-button>
+          </ion-col>
+        </ion-row>
+      </form>
+    </div>
+  </ion-card>
+  <div>
+    <ion-grid>
+      <ion-row class="text-center">
+        <ion-col>
+          <ion-label class="text-color-grey register-question margin-md">Don't have an account?</ion-label>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" class="blue-gradient border-radius-50 button-width-100" expand="block">Register</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>
