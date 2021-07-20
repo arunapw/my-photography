@@ -32,12 +32,12 @@
 
           <ion-item lines="full">
             <ion-label position="floating">Username</ion-label>
-            <ion-input type="text" required></ion-input>
+            <ion-input type="text" #username required></ion-input>
           </ion-item>
 
           <ion-item lines="full">
             <ion-label position="floating">Password</ion-label>
-            <ion-input type="password" required></ion-input>
+            <ion-input type="password" #password required></ion-input>
           </ion-item>
         </ion-card-content>
 
@@ -62,7 +62,7 @@
                 </ion-col>
               </ion-row>
             </ion-grid>
-            <ion-button type="submit" class="blue-gradient border-radius-50 button-width-100" expand="block">Login</ion-button>
+            <ion-button type="submit" class="blue-gradient border-radius-50 button-width-100" (click)="login()" expand="block">Login</ion-button>
           </ion-col>
         </ion-row>
       </form>
