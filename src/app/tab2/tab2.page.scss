@@ -1,0 +1,57 @@
+img {
+    max-width: 50%;
+    border: 0;
+    border-bottom-left-radius: 15px;
+    
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.button-styles {
+    background-color: powderblue;
+    background-color: #c2cae4ba;
+    margin-right: 86px;
+    margin-left: 177px;
+    border-bottom-width: 171px;
+    border-bottom-left-radius: 229px;
+}
+.button-inner {
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.item-var{
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    background-image: linear-gradient(
+45deg
+,#3a679eb5, transparent);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.lable-style
+{
+    text-align:left;
+    text-decoration-line: solid;
+    grid-row: 20px;
+}
+.camera-info-header .item-content {
+    background-color:#e71212;
+  }
+
+.products-card
+{
+height: fit-content;
+max-height: calc(100% - #{50px});
+position: relative;
+overflow: hidden;
+overflow-y: auto;        
+
+}

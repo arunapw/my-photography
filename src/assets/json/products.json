@@ -1,0 +1,25 @@
+[
+    {
+        "name":"Nikon",
+        "model":"D40",
+        "price":700,
+        "availability":true,
+        "image":"../../assets/products-images/cam8.jpg"
+    }
+    ,
+    {
+        "name":"Sony",
+        "model":"S140",
+        "price":1000,
+        "availability":false,
+        "image":"../../assets/products-images/cam5.jpg"
+    }
+    ,   
+    {
+        "name":"Canon",
+        "model":"C324",
+        "price":1200,
+        "availability":true,
+        "image":"../../assets/products-images/cam6.jpg"
+    }
+]
