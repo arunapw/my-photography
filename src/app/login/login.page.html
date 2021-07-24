@@ -13,7 +13,6 @@
           <div class="header-notification-icon">
             <ion-icon name="notifications-outline"></ion-icon>
           </div>
-
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -25,7 +24,6 @@
   <ion-card class="login-form-card">
     <div class="login-form text-center">
       <ion-label class="login-form-header">Login</ion-label>
-
 
       <form>
         <ion-card-content>
@@ -62,7 +60,7 @@
                 </ion-col>
               </ion-row>
             </ion-grid>
-            <ion-button type="submit" class="blue-gradient border-radius-50 button-width-100" expand="block">Login</ion-button>
+            <ion-button type="submit" [routerLink]="['/tabs']" class="blue-gradient border-radius-50 button-width-100" expand="block">Login</ion-button>
           </ion-col>
         </ion-row>
       </form>
