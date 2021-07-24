@@ -1,0 +1,38 @@
+.app-logo1{
+    padding-right: 40px;
+    margin-top: 60px;margin-top: 157px;
+    block-size: 219px;
+    margin-left: 71px;background-color: steelblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: linear-gradient(
+45deg
+, #6b84d0e8, transparent);
+    padding-top: 60px;
+}
+.tab-page{
+background-color: blueviolet;
+}
+ .tab-inner{
+background-color: brown;
+   } 
+   .ion-page {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    contain: layout size style;
+    overflow: hidden;
+    z-index: 0;
+}
+.inner-tab{
+    background-color: crimson;
+}

@@ -1,25 +1,121 @@
 [
     {
+    "name":"Phantom 4PRO",
+    "model":"X52",
+    "price":30000,
+    "availability":true,
+    "image":"../../assets/products-images/pic0000.jpg"
+}
+,
+{
+    "name":"Drone RC",
+    "model":"HD",
+    "price":15000,
+    "availability":true,
+    "image":"../../assets/products-images/pic00.jpg"
+}
+,
+{
+    "name":"Drone",
+    "model":"D40",
+    "price":25000,
+    "availability":true,
+    "image":"../../assets/products-images/pic000.jpg"
+}
+,
+    {
         "name":"Nikon",
         "model":"D40",
         "price":700,
+        "availability":true,
+        "image":"../../assets/products-images/cam11.jpg"
+    }
+    ,
+    {
+        "name":"Panasonic 4k",
+        "model":"S140",
+        "price":1500,
+        "availability":false,
+        "image":"../../assets/products-images/cam14.jpg"
+    }
+    ,   
+    {
+        "name":"Panasonic full HD",
+        "model":"C324",
+        "price":1250,
+        "availability":true,
+        "image":"../../assets/products-images/cam13.jpg"
+    }
+    ,
+    {
+        "name":"Canon EOS R5",
+        "model":"CC24",
+        "price":1200,
+        "availability":true,
+        "image":"../../assets/products-images/cam2.jpg"
+    }
+    ,
+    {
+        "name":"Pentax K-S2",
+        "model":"APS-C",
+        "price":500,
+        "availability":true,
+        "image":"../../assets/products-images/cam12.jpg"
+    }
+    ,
+    {
+        "name":"Pentax",
+        "model":"6100",
+        "price":1000,
+        "availability":true,
+        "image":"../../assets/products-images/cam10.jpg"
+    }
+    ,
+    {
+        "name":"Cam",
+        "model":"C324",
+        "price":2200,
+        "availability":true,
+        "image":"../../assets/products-images/cam9.jpg"
+    }
+    ,
+    {
+        "name":"Sensor",
+        "model":"C304",
+        "price":1800,
         "availability":true,
         "image":"../../assets/products-images/cam8.jpg"
     }
     ,
     {
-        "name":"Sony",
-        "model":"S140",
-        "price":1000,
-        "availability":false,
-        "image":"../../assets/products-images/cam5.jpg"
-    }
-    ,   
-    {
-        "name":"Canon",
+        "name":"Security",
         "model":"C324",
         "price":1200,
         "availability":true,
-        "image":"../../assets/products-images/cam6.jpg"
+        "image":"../../assets/products-images/cam7.jpg"
+    }
+    ,
+    {
+        "name":"Full HD",
+        "model":"1080p",
+        "price":1000,
+        "availability":true,
+        "image":"../../assets/products-images/cam4.jpg"
+    }
+    ,
+    {
+        "name":"Canon EOS",
+        "model":"SLR",
+        "price":1200,
+        "availability":true,
+        "image":"../../assets/products-images/cam1.jpg"
+    }
+    ,
+    {
+        "name":"Canon 5D",
+        "model":"Dx format",
+        "price":1500,
+        "availability":true,
+        "image":"../../assets/products-images/cam3.jpg"
     }
 ]

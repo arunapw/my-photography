@@ -1,34 +1,39 @@
-<ion-list>
-  <ion-item *ngFor="let item of items">
-  <ion-thumbnail slot="start">
-    
-    <ion-img [src]="item.src"></ion-img>
-  </ion-thumbnail>
-  <ion-label>{{item.text}}</ion-label>
-  </ion-item>
-</ion-list>
-<ion-list>
-  <ion-item-sliding *ngFor="let product of products;">
-    <ion-card class="item-var products-card" >
-      <ion-item class="camera-info-header">
-
-      <ion-label class="lable-style">{{ product.name }}</ion-label>
-      <ion-button fill="outline" slot="end">{{ product.price }}</ion-button>
-      </ion-item>
-
-      <ion-card-content class="product-content">
-        <img src="{{ product.image }}" alt="">
-        <ion-button class="button-styles" fill="outline" slot="end">Book Now</ion-button>
-      </ion-card-content>
-    </ion-card>
-  </ion-item-sliding>
-</ion-list>
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large"></ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-router-outlet>
+  <ion-app class="app-page"></ion-app>
+</ion-router-outlet>
+  <ion-list>
+    <ion-item *ngFor="let item of items">
+    <ion-thumbnail slot="start">
+      
+      <ion-img [src]="item.src"></ion-img>
+    </ion-thumbnail>
+    <ion-label>{{item.text}}</ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item-sliding *ngFor="let product of products;">
+      
+      <ion-card class="item-var products-card" >
+        <ion-item class="camera-info-header">
+  
+        <ion-label class="lable-style">{{ product.name }}</ion-label>
+        <ion-button fill="outline" slot="end">{{ product.price }}</ion-button>
+        </ion-item>
+  
+        <ion-card-content class="product-content">
+          <img src="{{ product.image }}" alt="">
+          <ion-button class="button-styles" fill="outline" slot="end">Book Now</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
+
 
   
-</ion-content>

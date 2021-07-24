@@ -55,3 +55,48 @@ overflow: hidden;
 overflow-y: auto;        
 
 }
+.scroll-y {
+    /* touch-action: pan-y; */
+    overflow-y: var(--overflow);
+    overscroll-behavior-y: contain;
+}
+
+.scroll-y, .scroll-x {
+    z-index: 0;
+    will-change: scroll-position;
+}
+
+.inner-scroll {
+    padding-left: unset;
+    padding-right: unset;
+    padding-inline-start: var(--padding-start);
+    padding-inline-end: var(--padding-end);
+}
+
+.inner-scroll {
+    left: 0px;
+    right: 0px;
+    top: calc(var(--offset-top) * -1);
+    bottom: calc(var(--offset-bottom) * -1);
+    padding-left: var(--padding-start);
+    padding-right: var(--padding-end);
+    padding-top: calc(var(--padding-top) + var(--offset-top));
+    padding-bottom: calc(var(--padding-bottom) + var(--keyboard-offset) + var(--offset-bottom));
+    position: absolute;
+    color: var(--color);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+main {
+    display: block;
+}
+.app-page
+{
+    background-color: #a4b6e4;
+    background-image: linear-gradient(
+45deg
+, #a1acc5, transparent);
+    left: 5px;
+    right: 5px;
+}
