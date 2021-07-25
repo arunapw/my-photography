@@ -1,19 +1,80 @@
-
-
 <ion-content [fullscreen]="true">
+  <ion-item class="datePickerClass">
+    <ion-label class="date-order">Please select order date</ion-label>
+    <ion-datetime displayFormat="MM DD YY" placeholder="Select Date"></ion-datetime>
+  </ion-item>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large"></ion-title>
     </ion-toolbar>
   </ion-header>
-  
-  <img class="app-logo1"  height="40" src="../../assets/products-images/icon4.png">
-  
-  <ion-tab></ion-tab>
+  <ion-card class="products-list products-card" mode="product-search-mode">
+    <ion-grid style="padding-left: 0px;">
+      <ion-row class="card-row">
+        <ion-col>
+          <img class="product-image shadow" src="{{ product.image }}" alt="{{ product.name }}">
+        </ion-col>
+      </ion-row>
+        <ion-row>
+        <ion-col size="6" offset="1">
+          <div class="product-info">
+            <div>
+              <ion-label class="lable-style"> {{ product.name }} </ion-label>
+            </div>
+            <div>
+              <ion-label class="product-price"> &#x20B9; {{ product.price }} </ion-label>
+              <ion-label class="label-grey-style strike-through"> {{ getDiscount(product) }}</ion-label>
+            </div>
+            <div slot="bottom">
+              <button *ngIf="product.availability" class="success color-success"> Available</button>
+            </div>
+            <div slot="bottom">
+            </div>
 
-  <ion-tab-button tab="tab-about">
-    <ion-icon ></ion-icon>
-    <ion-label></ion-label>
-  </ion-tab-button>
-  
+          </div>
+
+        </ion-col>
+        <ion-col size="1">
+          <div class="favorite-icon">
+            <ion-icon name="heart-outline" class=""></ion-icon>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  <ion-card class="pay-card">
+
+    <ion-item>
+      <ion-icon name="" slot="start"></ion-icon>
+      <ion-label></ion-label>
+      <ion-button class="payment-button" fill="outline" slot="end">Payment</ion-button>
+    </ion-item>
+  </ion-card>
+  <ion-grid class="payment-option-grid">
+    <ion-row>
+      <ion-col align="center">
+        Payment Options
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" align="center">
+        <img class="" height="40" src="../../assets/products-images/pic4.png" alt="Wankhade Art">
+      </ion-col>
+
+      <ion-col size="6" align="center">
+        <img class="" height="40" src="../../assets/products-images/pic5.png" alt="Wankhade Art">
+      </ion-col>
+
+      <ion-col size="6" align="center">
+        <img class="app-logo3" height="40" src="../../assets/products-images/pic1.jpg">
+      </ion-col>
+
+      <ion-col size="6" align="center">
+        <img class="app-logo3" height="40" src="../../assets/products-images/pic3.jpg">
+      </ion-col>
+
+
+    </ion-row>
+  </ion-grid>
 </ion-content>
+

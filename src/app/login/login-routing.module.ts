@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {Routes, RouterModule, Route, Router} from '@angular/router';
 
 import { LoginPage } from './login.page';
 import {TabsPage} from '../tabs/tabs.page';
@@ -20,7 +20,5 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class LoginPageRoutingModule {
-
-  onLogin
 
 }

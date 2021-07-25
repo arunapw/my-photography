@@ -1,8 +1,9 @@
 .app-logo1{
     padding-right: 40px;
-    margin-top: 60px;margin-top: 157px;
-    block-size: 219px;
-    margin-left: 71px;background-color: steelblue;
+  margin-top: 15px;
+  block-size: 137px;
+    margin-left: 95px;
+
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -14,12 +15,43 @@
 , #6b84d0e8, transparent);
     padding-top: 60px;
 }
+.date-order{
+  background-image: linear-gradient(45deg, #6fadca, transparent);
+}
+.app-logo2{
+  padding-right: 40px;
+  margin-top: 15px;
+  block-size: 137px;
+  margin-left: 95px;
+  padding-left: 20px;
+  background-image: linear-gradient(
+      45deg
+    , #6b84d0e8, transparent);
+  padding-top: 60px;
+}
+.payment-button{
+  margin-right: 111px;
+  background-image: linear-gradient(
+      45deg
+    , #bae9f1, transparent);
+}
+
 .tab-page{
 background-color: blueviolet;
 }
+.app-logo3 {
+  margin-inline-end: auto;
+  max-width: 28%;
+  border: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
  .tab-inner{
 background-color: brown;
-   } 
+   }
+
    .ion-page {
     left: 0;
     right: 0;
@@ -35,4 +67,56 @@ background-color: brown;
 }
 .inner-tab{
     background-color: crimson;
+}
+.pay-card{
+  padding-top: 30px;
+}
+
+.payment-option-grid {
+
+}
+
+
+
+.products-list {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.product-image {
+  width: 112%;
+  height: 100%;
+}
+
+.favorite-icon {
+
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(5px 5px 5px #a8a8a8);
+}
+
+.favorite-icon ion-icon {
+  font-size: 22px;
+}
+
+.book-now-button {
+  height: 22px;
+  width: fit-content;
+  font-size: 10px;
+}
+
+.product-info {
+  margin-left: 5px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.color-success {
+  color: #00923e;
+}
+
+
+.shadow
+{
+  -webkit-filter: drop-shadow(1px 2px 7px #a8a8a8);
 }

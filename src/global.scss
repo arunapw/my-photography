@@ -24,10 +24,16 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
-
+/*@import '~magic.css/magic.min.css';
+@import '~animate.css/animate/magic.min.css';*/
 .blue-gradient
 {
   background-image: linear-gradient(124deg, rgba(203, 235, 255, 0.99), #0046e28c) !important;
+}
+
+.background-gradient
+{
+  background-image: linear-gradient(124deg, rgb(255, 255, 255), rgb(255, 255, 255)) !important;
 }
 
 .border-radius-50
@@ -71,4 +77,35 @@
 .margin-lg
 {
   margin: 15px;
+}
+
+.leftside{
+  text-align: left;
+}
+
+.header-notification-icon
+{
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  width: 37px;
+  padding-top: 8px;
+  text-align: center;
+  vertical-align: middle;
+  height: 37px;
+  background: #0006b5;
+  color: white;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(5px 5px 5px #2f00a0);
+  filter: drop-shadow(5px 5px 5px #2f00a0);
+}
+
+.strike-through
+{
+  text-decoration: line-through;
+}
+
+
+.label-grey-style {
+  color: grey;
 }

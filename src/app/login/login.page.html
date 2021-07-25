@@ -29,13 +29,13 @@
         <ion-card-content>
 
           <ion-item lines="full">
-            <ion-label position="floating">Username</ion-label>
-            <ion-input type="text" required></ion-input>
+            <ion-label position="floating" >Username</ion-label>
+            <ion-input type="text" #username ></ion-input>
           </ion-item>
 
           <ion-item lines="full">
             <ion-label position="floating">Password</ion-label>
-            <ion-input type="password" required></ion-input>
+            <ion-input type="password" #password></ion-input>
           </ion-item>
         </ion-card-content>
 
@@ -60,7 +60,7 @@
                 </ion-col>
               </ion-row>
             </ion-grid>
-            <ion-button type="submit" [routerLink]="['/tabs']" class="blue-gradient border-radius-50 button-width-100" expand="block">Login</ion-button>
+            <ion-button type="submit" (click)="onLogin()" class="blue-gradient border-radius-50 button-width-100" expand="block">Login</ion-button>
           </ion-col>
         </ion-row>
       </form>
@@ -76,7 +76,7 @@
 
       <ion-row>
         <ion-col>
-          <ion-button type="submit" class="blue-gradient border-radius-50 button-width-100" expand="block">Register</ion-button>
+          <ion-button type="submit" [routerLink]="['/tabs/tab1']" class="blue-gradient border-radius-50 button-width-100" expand="block">Register</ion-button>
         </ion-col>
       </ion-row>
     </ion-grid>

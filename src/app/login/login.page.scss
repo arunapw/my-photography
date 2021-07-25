@@ -9,30 +9,13 @@
   font-size: 15px;
 }
 
-.app-title-description
-{
+.app-title-description {
   font-weight: normal;
   color: #ffffff;
   padding-top: 5px;
   font-size: 12px;
 }
 
-.header-notification-icon
-{
-  display: block;
-  margin: auto;
-  font-size: 20px;
-  width: 37px;
-  padding-top: 8px;
-  text-align: center;
-  vertical-align: middle;
-  height: 37px;
-  background: #0006b5;
-  color: white;
-  border-radius: 50%;
-  -webkit-filter: drop-shadow(5px 5px 5px #2f00a0);
-  filter: drop-shadow(5px 5px 5px #2f00a0);
-}
 .app-logo {
   width: 33px;
   height: 33px;
@@ -42,8 +25,7 @@
 
 .app-header {
   background-image: linear-gradient(
-    124deg
-  , #085377fc, #0046e28c);
+      124deg, #085377fc, #0046e28c);
 }
 
 .app-logo-center {
@@ -53,31 +35,31 @@
 }
 
 
-.login-form
-{
+.login-form {
   padding: 10px;
 }
 
-.login-form-card
-{
+.login-form-card {
   margin: 25px;
   font-size: 12px;
 }
 
-.button-width-100
-{
+.button-width-100 {
   width: 152px;
   margin: auto;
 }
 
-.remember-password
-{
+.remember-password {
   font-size: 12px;
   margin: 10px
 }
 
-.login-form-header
-{
+.login-form-header {
   font-size: 25px;
 }
 
+.login-alert {
+  font-weight: bold;
+  margin: auto;
+  display: block
+}

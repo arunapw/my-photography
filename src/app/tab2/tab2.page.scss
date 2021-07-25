@@ -1,102 +1,135 @@
 img {
-    max-width: 50%;
-    border: 0;
-    border-bottom-left-radius: 15px;
-    
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  max-width: 108%;
+  border: 0;
 }
-.button-styles {
-    background-color: powderblue;
-    background-color: #c2cae4ba;
-    margin-right: 86px;
-    margin-left: 177px;
-    border-bottom-width: 171px;
-    border-bottom-left-radius: 229px;
+
+.button-style {
+  margin-right: 86px;
+  margin-left: 177px;
+  border-bottom-width: 171px;
+  border-bottom-left-radius: 229px;
 }
+
 .button-inner {
-    display: flex;
-    position: relative;
-    flex-flow: row nowrap;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
-.item-var{
-    background-color: white;
-    border-bottom-left-radius: 30px;
-    background-image: linear-gradient(
-45deg
-,#3a679eb5, transparent);
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+
+
+.lable-style {
+  text-align: left;
+  font-weight: bold;
 }
-.lable-style
-{
-    text-align:left;
-    text-decoration-line: solid;
-    grid-row: 20px;
-}
+
 .camera-info-header .item-content {
-    background-color:#e71212;
-  }
-
-.products-card
-{
-height: fit-content;
-max-height: calc(100% - #{50px});
-position: relative;
-overflow: hidden;
-overflow-y: auto;        
-
 }
+
+.products-card {
+  height: fit-content;
+  max-height: calc(100% - #{50px});
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  font-size: 12px;
+  font-family: "Arial";
+}
+
 .scroll-y {
-    /* touch-action: pan-y; */
-    overflow-y: var(--overflow);
-    overscroll-behavior-y: contain;
+  /* touch-action: pan-y; */
+  overflow-y: var(--overflow);
+  overscroll-behavior-y: contain;
 }
 
 .scroll-y, .scroll-x {
-    z-index: 0;
-    will-change: scroll-position;
+  z-index: 0;
+  will-change: scroll-position;
 }
 
 .inner-scroll {
-    padding-left: unset;
-    padding-right: unset;
-    padding-inline-start: var(--padding-start);
-    padding-inline-end: var(--padding-end);
+  padding-left: unset;
+  padding-right: unset;
+  padding-inline-start: var(--padding-start);
+  padding-inline-end: var(--padding-end);
 }
 
 .inner-scroll {
-    left: 0px;
-    right: 0px;
-    top: calc(var(--offset-top) * -1);
-    bottom: calc(var(--offset-bottom) * -1);
-    padding-left: var(--padding-start);
-    padding-right: var(--padding-end);
-    padding-top: calc(var(--padding-top) + var(--offset-top));
-    padding-bottom: calc(var(--padding-bottom) + var(--keyboard-offset) + var(--offset-bottom));
-    position: absolute;
-    color: var(--color);
-    box-sizing: border-box;
-    overflow: hidden;
+  left: 10px;
+  right: 10px;
+  top: calc(var(--offset-top) * -1);
+  bottom: calc(var(--offset-bottom) * -1);
+  padding-left: var(--padding-start);
+  padding-right: var(--padding-end);
+  padding-top: calc(var(--padding-top) + var(--offset-top));
+  padding-bottom: calc(var(--padding-bottom) + var(--keyboard-offset) + var(--offset-bottom));
+  position: absolute;
+  color: var(--color);
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 main {
-    display: block;
+  display: block;
 }
-.app-page
-{
-    background-color: #a4b6e4;
-    background-image: linear-gradient(
-45deg
-, #a1acc5, transparent);
-    left: 5px;
-    right: 5px;
+
+.app-page {
+  left: 5px;
+  right: 5px;
+}
+
+.products-list {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.product-image {
+  width: 112%;
+  height: 100%;
+}
+
+.favorite-icon {
+
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(5px 5px 5px #a8a8a8);
+}
+
+.favorite-icon ion-icon {
+  font-size: 22px;
+}
+
+.book-now-button {
+  height: 22px;
+  width: fit-content;
+  font-size: 10px;
+}
+
+.product-info {
+  margin-left: 5px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.color-success {
+  color: #00923e;
+}
+
+
+.shadow {
+  -webkit-filter: drop-shadow(1px 2px 7px #a8a8a8);
+}
+
+.favorite-icon {
+  background-color: lightblue;
+}
+
+.pay-card {
+  background-color: whitesmoke;
+  padding-top: 200px;
 }
